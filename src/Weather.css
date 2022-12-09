@@ -1,0 +1,84 @@
+body {
+  font-family: "Space Mono", monospace;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 27px;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 16px;
+  margin: -80px 800px 100px 320px;
+}
+h3 {
+  font-size: 16px;
+  margin: 0 32px 20px 20px;
+}
+.Weather {
+  background: #f2d7d9;
+  border-radius: 15px;
+  border: 1px solid #e3fdfd;
+  color: #9cb4cc;
+  padding: 30px;
+  max-width: 600px;
+  margin: 30px auto;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+.Weather li {
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+.Weather li:first-letter {
+  text-transform: capitalize;
+}
+.Weather .units {
+  color: #748da6;
+  font-size: 60px;
+}
+.Weather .application img {
+  margin-right: 5px;
+  margin-top: 12px;
+  height: 63px;
+  width: 63px;
+}
+.Weather .application .units {
+  position: relative;
+  font-size: 18px;
+  top: -35px;
+  top: 20px;
+}
+.Weather a:link {
+  text-decoration: none;
+  color: #748da6;
+}
+.Weather .form-control {
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  height: 40px;
+  line-height: 20px;
+  padding: 15px 20px;
+}
+.Weather .btn {
+  background: #bebde3;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+.Weather .forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #748da6;
+}
+.Weather .forecast-date {
+  font-size: 17px;
+}
